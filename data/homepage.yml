@@ -1,0 +1,218 @@
+head:
+  title: "Juan Janica's Ultra trail runner and electronic eng. estudent portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Juan Janica."
+  subtitle: "Former student of electronic engineering and 8 years experienced Ultra Trail Runner."
+  description: "Juan is an electronic engineering student and <a target='_blank' href='https://www.strava.com/athletes/juanjyanet'>amateur athlete</a>. that aspire to one day have his own enterprise and be top10 UTMB runner."
+  image:
+    x: "img/showcase/running_1.gif"
+    _2x: "img/showcase/running_1.gif"
+  imageMobile:
+    x: "img/showcase/running_1.gif"
+    _2x: "img/showcase/running_1.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact me"
+    URL: "mailto:juanjanicacy@unimagdalena.edu.co"
+
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/J4n1kY"
+
+    - icon: "facebook"
+      URL: "https://www.strava.com/athletes/juanjyanet "
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/janication2602/"
+      
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/juan-j%C3%A1nica/"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I love nature and that's why I'm a Trail Runner.</strong> My passion is tecnology and new waves of ML. But, when I am not running or
+    studying, I enjoy cooking and spend time with my relatives. 
+    </p>
+    <p class="lead">
+    <strong>My area of  interest</strong> is ML learning and industrial technologies. 
+    Me and my 7-mates group try to solve teh most of the project that all the professors assignt to us
+    always having in mind that always there's a other way.
+    I enjoy learning and helping other to give their best and also, find me better me.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/user-picture_1.jpeg"
+    _2x: "img/who-am-i/user-picture_1.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "5TH year student, with proyect relative to Machine Learning;sign-language translator and autonomus vehicles. To approach myselft of what the labor market demands ."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/juan-j%C3%A1nica/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sig-Language translator"
+      subjetc: "multimedia content processing"
+      duration: "Oct 2024 - Nov 2024"
+
+    - title: "Autonomous vehicle through computer vision."
+      subject: "Robotics"
+      duration: "Mar 2025 - Jun 2025"
+      
+    - title: "Activity Sensor."
+      subject: "Microprocessor"
+      duration: "Sep 2024 - Nov 2024"
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universidad del Magdalena "
+      year: "2020-2026"
+      degree: "Bachelor of Electronic Engineering"
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Sign-Language Translator"
+      description: "Nowadays, having the abbility to communicate has being seeked by so many ways. That's why, as a prototype, we aspire narrowing that barrier with it."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: ""
+      image:
+        x: "img/works/traductor-lengua-de-señas.png"
+        _2x: "img/works/traductor-lengua-de-señas.png"
+      is_even: true
+
+    - title: "Autonomus Vehicule"
+      description: "A simulated autonomous vehicle developed in CoppeliaSim, integrating computer vision and reinforcement learning (PPO) for real-time navigation and obstacle avoidance. The system detects shapes to trigger specific actions, enabling adaptive behavior in dynamic environments. This prototype supports educational research in intelligent control systems using Python.."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/Autonomus-vehicle.jpeg"
+        _2x: "img/works/Autonomus-vehicle.jpeg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+    
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Matt"
+    
+  image:
+    x: "img/who-am-i/user-picture_2.jpeg"
+    _2x: "img/who-am-i/user-picture_2.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:juanjanicacy@unimagdalena.edu.co'
+    
+  phone:
+    title: "Phone Number"
+    number: "3045463525"
+  email:
+    title: "Email"
+    email: '<a href="mailto:juanjanicacy@unimagdalena.edu.co">juanjanicacy@unimagdalena.edu.co</a>'
+  address:
+    title: "Address"
+    address: "Santa Marta, Colombia"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
